@@ -1,6 +1,7 @@
 class UserApp < ActiveRecord::Base
   include ActiveModel::Validations
   include ActiveModel::Validations::Callbacks
+  
 
   attr_accessor :name, :status
 

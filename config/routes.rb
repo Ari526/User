@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  resources :articles
+  resources :fits
+  resources :ques
+  resources :asks
+  resources :tasks
   resources :cats
   resources :exams
   resources :exams
